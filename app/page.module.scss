@@ -1,0 +1,76 @@
+
+
+
+.intro {
+
+    height: 100vh;
+
+    .title {
+        position: absolute;
+    
+        top: 20vh;
+    
+        left: 15vw;
+    
+        font-size: 5rem;
+        font-weight: 100;
+    
+        .name {
+            font-weight: 500;
+        }
+    }
+    
+    .description {
+    
+        position: absolute;
+    
+        top: 23vh;
+        right: 20vw;
+    
+        width: 5rem;
+    
+        font-size: 1.5rem;
+        font-weight: 100;
+    
+        .highlight {
+           font-weight: 500; 
+        }
+    
+    }
+}
+
+.about {
+    height: 100vh;
+
+    .header {
+        height: 10vw;
+    }
+
+    .main_container {
+        display: flex;
+        justify-content: space-between;
+
+        // width: 100%;
+
+        margin:  10vh 10vw;
+
+        .description {
+
+            width: 40vw;
+
+            font-size: 1.3rem;
+            font-weight: 100;
+        }
+    
+        .portrait_container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            .portrait {
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
