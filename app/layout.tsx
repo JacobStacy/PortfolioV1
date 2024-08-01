@@ -36,10 +36,10 @@ export default function RootLayout({
                   <Link href="/#experience">experience, </Link>
                 </li>
                 <li>
-                  <Link href="/">projects, </Link>
+                  <Link href="/#projects">projects, </Link>
                 </li>
                 <li>
-                  <Link href="/">contact</Link>
+                  <Link href="/#contact">contact</Link>
                 </li>
               </ul>
             </div>

@@ -86,8 +86,8 @@ export function Project ({
     return(
         <div className={styles.project}>
             {/* <Image className={styles.image} src={image}  alt={alt_text} width={690} height={374}/> */}
-            <div className={styles.title}>{title}</div>
             <div className={styles.sub_text}><div>{sub_text}</div></div>
+            <div className={styles.title}>{title}</div>
         </div>
     )
 }

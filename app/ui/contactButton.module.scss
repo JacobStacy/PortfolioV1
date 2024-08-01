@@ -1,0 +1,124 @@
+
+
+// Off white
+// $main-text-color: #2e2e2e;
+// $main-background-color: #F2F1EF;
+
+// White
+$main-text-color: #000000;
+$main-background-color: #ffffff;
+
+// Greyish
+// $main-text-color: #353535;
+// $main-background-color: #E6E6E6;
+
+.link {
+
+    width: fit-content;
+
+    border: 1px $main-text-color solid; 
+    border-radius: 25px;
+
+    overflow: hidden;
+
+    margin-right: 1vw;
+
+    color: $main-text-color;
+
+    text-decoration: none;
+    &:visited{
+        text-decoration: none;
+        color: $main-text-color;
+    }
+
+    &:hover {
+        .contact_button {
+            animation: scroll-left .5s linear infinite;
+        }
+    }
+
+    .contact_button {
+        // position: static;
+    
+        //temp
+        // margin-left: 40vw;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+    
+    
+        width: fit-content;
+        
+        margin: 2.5px 25px;
+        
+    
+    
+    
+        font-size: 2rem;
+        font-weight: 300;
+    
+        
+    
+    
+        span::after {
+            content: attr(data-text);
+            position: absolute;
+            left: 130%;
+            width: 100%;
+            text-align: center;
+        }
+
+        &:hover { 
+            // color: #00000000;
+        
+        }
+        
+    
+        
+        
+    
+    
+    
+        
+           
+    
+        
+    
+    }
+    
+    
+}
+    
+// @-moz-keyframes scroll-left {
+//     0% {
+//         -moz-transform: translateX(0);
+//     }
+//     100% {
+//         -moz-transform: translateX(-150%);
+//     }
+// }
+
+// @-webkit-keyframes scroll-left {
+//     0% {
+//         -webkit-transform: translateX(0);
+//     }
+//     100% {
+//         -webkit-transform: translateX(-150%);
+//     }
+// }
+
+@keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+    100% {
+        -moz-transform: translateX(-130%);
+        -webkit-transform: translateX(-130%);
+        transform: translateX(-130%);
+    }
+}

@@ -6,33 +6,9 @@ import { useEffect } from "react";
 import { frankRuhlLibre } from '@/app/ui/fonts';
 import { Experiences } from "./ui/Experiences";
 import { Projects } from "./ui/Projects";
+import { ContactButton } from "./ui/ContactButton";
 
 export default function Home() {
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const scrollY = window.scrollY; // Get the current scroll position
-  //     const documentHeight = document.body.scrollHeight - window.innerHeight; // Calculate the total scrollable height
-  //     const scrollPercent = scrollY / documentHeight; // Calculate the scroll percentage
-
-  //     // Convert the scroll percentage to a color value
-  //     const startColor = [255, 255, 255]; // RGB for white
-  //     const endColor = [245, 238, 230]; // RGB for blue
-  //     const newColor = startColor.map((start, i) => {
-  //       const end = endColor[i];
-  //       return Math.round(start + (end - start) * scrollPercent);
-  //     });
-
-  //     // Set the new background color
-  //     document.documentElement.style.backgroundColor = `rgb(${newColor.join(',')})`;
-  //   };
-
-  //   window.addEventListener('scroll', handleScroll);
-
-  //   // Clean up the event listener on component unmount
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, []);
 
   return (
     <main className={styles.main}>
@@ -48,26 +24,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* <div id="about" className={styles.about}>
-
-          <div className={styles.header}></div>
-          <div className={styles.main_container}>
-            <div className={styles.description}>
-            I AM A HIGHLY DEDICATED AND WELL-ROUNDED MICHIGAN STATE UNIVERSITY ALUM WITH A BACHELORS OF SCIENCE IN COMPUTER SCIENCE. 
-
-            </div>
-            <div className={styles.portrait_container}>
-              <Image 
-              className={styles.portrait}
-              src={"/Portrait.png"} 
-              alt="Picture of me"
-              width={300}
-              height={300}
-              />
-            </div>
-          </div>
-      </div> */}
-
       <div id="experience" className={styles.experience}>
         <Experiences/>
       </div>
@@ -77,9 +33,17 @@ export default function Home() {
       </div>
 
       <div id="contact" className={styles.contact}>
-        <div className="let_connect">Let's Connect</div>
-        
+        <div className={styles.lets_connect}>Let's Connect</div>
+        <div className={styles.contact_buttons}>
+          <ContactButton href="./Jacob R. Stacy - Resume.pdf">RESUME</ContactButton>
+          <ContactButton href="https://www.linkedin.com/in/jacobrstacy/">LINKEDIN</ContactButton>
+          <ContactButton href="https://github.com/JacobStacy">GITHUB</ContactButton>
+          <ContactButton href="mailto:jacborstacy@gmail.com?body=Hi%20Jacob!">EMAIL</ContactButton>
+          <ContactButton href="sms:+17347717563?body=Hi%20Jacob!">PHONE</ContactButton>
+        </div>
       </div>
+
+    {/* <div className={styles.copyright}>© Jacob R. Stacy</div> */}
     </main>
   );
 }
