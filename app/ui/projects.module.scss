@@ -1,0 +1,49 @@
+.header {
+
+    margin-top: 15vh;
+    margin-bottom: 4vh;
+    margin-left: 15vw;
+
+    font-size: 3.5rem;
+    font-weight: 300;
+
+}
+
+.project_container{
+    margin-top: 5vh;
+
+    .project {
+        display: flex;
+        flex-direction: row-reverse;
+    
+        width: 80vw;
+    
+        margin: auto;
+        margin-top: 1vh;
+    
+        .title {
+            font-weight: 100;
+            font-size: 2rem;
+        }
+
+        .sub_text {
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+
+            margin-bottom: .7vh;
+            margin-right: 1vw;
+
+            font-weight: 100;
+        }
+    
+        .image {
+            // filter: grayscale(100%);
+            // -webkit-filter: grayscale(100%);
+        }
+    
+        // &:nth-child(even) {
+        //     flex-direction: row-reverse;
+        // }
+    }
+}

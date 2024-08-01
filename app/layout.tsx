@@ -33,7 +33,7 @@ export default function RootLayout({
             <div className="menu">
               <ul>
                 <li>
-                  <Link href="/#about">about, </Link>
+                  <Link href="/#experience">experience, </Link>
                 </li>
                 <li>
                   <Link href="/">projects, </Link>

@@ -7,6 +7,12 @@
 $main-text-color: #000000;
 $main-background-color: #ffffff;
 
+// Greyish
+// $main-text-color: #353535;
+// $main-background-color: #E6E6E6;
+
+
+
 /* makes sizing simpler */
 
 *,
@@ -32,12 +38,18 @@ html {
   color: $main-text-color;
   background-color: $main-background-color;
 
+  scroll-behavior: smooth;
+
 }
 
 /* min body height */
 
 body {
   min-height: 100vh;
+
+  // background-image: radial-gradient(#00000006 1px, transparent 0);
+  // background-size: 10px 10px;
+  // background-position: -19px -19px;
 }
 
 /* responsive images/videos */

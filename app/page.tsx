@@ -1,9 +1,11 @@
-'use client';
+// "use client";
 
 import Image from "next/image";
 import styles from "./page.module.scss";
 import { useEffect } from "react";
 import { frankRuhlLibre } from '@/app/ui/fonts';
+import { Experiences } from "./ui/Experiences";
+import { Projects } from "./ui/Projects";
 
 export default function Home() {
   // useEffect(() => {
@@ -14,7 +16,7 @@ export default function Home() {
 
   //     // Convert the scroll percentage to a color value
   //     const startColor = [255, 255, 255]; // RGB for white
-  //     const endColor = [252, 117, 117]; // RGB for blue
+  //     const endColor = [245, 238, 230]; // RGB for blue
   //     const newColor = startColor.map((start, i) => {
   //       const end = endColor[i];
   //       return Math.round(start + (end - start) * scrollPercent);
@@ -46,12 +48,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div id="about" className={styles.about}>
+      {/* <div id="about" className={styles.about}>
 
           <div className={styles.header}></div>
           <div className={styles.main_container}>
             <div className={styles.description}>
-            LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT. SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT ALIQUIP EX EA COMMODO CONSEQUAT. DUIS AUTE IRURE DOLOR IN REPREHENDERIT IN VOLUPTATE VELIT ESSE CILLUM DOLORE EU FAGIT NULLA PAIRIATUR. EXCEPTEUR SINT OCCAEAT CUPIDITAT NON PROIDENT, SUNT IN CULPA QUI OFFICIA DESERUNT MOLLIT 
+            I AM A HIGHLY DEDICATED AND WELL-ROUNDED MICHIGAN STATE UNIVERSITY ALUM WITH A BACHELORS OF SCIENCE IN COMPUTER SCIENCE. 
 
             </div>
             <div className={styles.portrait_container}>
@@ -64,8 +66,20 @@ export default function Home() {
               />
             </div>
           </div>
+      </div> */}
+
+      <div id="experience" className={styles.experience}>
+        <Experiences/>
       </div>
 
+      <div id="projects" className={styles.projects}>
+        <Projects/>
+      </div>
+
+      <div id="contact" className={styles.contact}>
+        <div className="let_connect">Let's Connect</div>
+        
+      </div>
     </main>
   );
 }

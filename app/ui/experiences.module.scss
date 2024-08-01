@@ -1,0 +1,48 @@
+
+.header {
+
+    margin-top: 15vh;
+    margin-bottom: 4vh;
+    margin-left: 15vw;
+
+    font-size: 4rem;
+    font-weight: 500;
+
+
+}
+
+
+.experience_container {
+    width: 60vw;
+    margin: auto;
+
+    font-weight: 100;
+
+    .experience {
+        margin-bottom: 4vh;
+
+        .title {
+            margin-bottom: .6vh;
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+        .position {
+            margin-bottom: 1vh;
+            
+            font-size: 1rem;
+            font-style: italic;
+
+        }
+
+
+        .points {
+            li {
+                margin-bottom: .5vh;
+
+                font-size: .9rem;
+                font-weight: 300;
+            }
+        }
+    }
+}
