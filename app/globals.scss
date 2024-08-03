@@ -261,7 +261,9 @@ header{
     nav {
       justify-content: center;
       .title {
-        display: none;
+        span:nth-child(even){
+          display: none;
+        }
       }
     }
   }
