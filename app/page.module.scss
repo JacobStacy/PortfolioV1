@@ -266,4 +266,14 @@
 
 
 
+@media only screen and (max-height: 600px) {
+    .intro {
 
+        height: 150vh;
+
+        .description {
+            top: 80vh;
+        }
+    }
+    
+}
