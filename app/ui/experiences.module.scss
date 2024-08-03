@@ -46,3 +46,56 @@
         }
     }
 }
+
+
+@media only screen and (max-width: 900px) {
+    .header {
+        margin-left: 12vw;
+    }
+    .experience_container {
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .header {
+        width: fit-content;
+
+        // margin-left: 8vw;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .experience_container {
+        .experience {
+    
+            // text-align: justify;
+            // text-justify: inter-word;
+
+            .points {
+                li {
+                    margin-bottom: .5vh;
+    
+                    font-size: .9rem;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .header {
+
+        font-size: 3rem;
+
+        width: fit-content;
+
+        // margin-left: 8vw;
+        margin-left:auto;
+        margin-right:auto;
+
+
+    }
+
+}

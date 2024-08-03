@@ -33,7 +33,7 @@ export default function Home() {
       </div>
 
       <div id="contact" className={styles.contact}>
-        <div className={styles.lets_connect}>Let's Connect</div>
+        <div className={styles.lets_connect}>Let's <br/>Connect</div>
         <div className={styles.contact_buttons}>
           <ContactButton href="./Jacob R. Stacy - Resume.pdf">RESUME</ContactButton>
           <ContactButton href="https://www.linkedin.com/in/jacobrstacy/">LINKEDIN</ContactButton>

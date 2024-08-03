@@ -14,14 +14,16 @@ $main-background-color: #ffffff;
 
 .link {
 
-    width: fit-content;
+    min-width: fit-content;
 
     border: 1px $main-text-color solid; 
     border-radius: 25px;
 
     overflow: hidden;
 
+    margin-top: 1vh;
     margin-right: 1vw;
+
 
     color: $main-text-color;
 
@@ -120,5 +122,14 @@ $main-background-color: #ffffff;
         -moz-transform: translateX(-130%);
         -webkit-transform: translateX(-130%);
         transform: translateX(-130%);
+    }
+}
+
+@media (pointer:coarse) {
+
+    .contact_button {    
+        span::after {
+            display: none;
+        }
     }
 }
