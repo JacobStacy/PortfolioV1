@@ -7,43 +7,43 @@ const projects = [
     {
         title: "M2 Vessel Classifer",
         image: "/Capstone-1.png",
-        alt_text: "UI for the M2 Vessel Classifer",
+        link: "http://www.capstone.cse.msu.edu/2024-01/projects/anthropocene-institute/",
         sub_text: "WEB APP AND AI MODEL SAVING THE WORLD"
     },
     {
         title: "JakeQL",
         image: "",
-        alt_text: "",
+        link: "https://github.com/JacobStacy/JakeQL",
         sub_text: "DBSM WRITTEN IN PYTHON MIMICING SQLITE"
-    },
-    {
-        title: "EvoSim",
-        image: "",
-        alt_text: "",
-        sub_text: "BASIC EVOLUTION SIMULATOR"
-    },
-    {
-        title: "DanceTime",
-        image: "",
-        alt_text: "",
-        sub_text: "TO FIND WHEN YOUR FAVORITE ARTISTS ARE PLAYING NEAR YOU"
     },
     {
         title: "GeoStudy",
         image: "",
-        alt_text: "",
+        link: "https://github.com/leohoerdemann/CSE_476_Project_App",
         sub_text: "LOCATION BASED STUDY AID"
+    },
+    {
+        title: "EvoSim",
+        image: "",
+        link: "https://github.com/JacobStacy/EvoSim",
+        sub_text: "BASIC EVOLUTION SIMULATOR"
+    },
+    {
+        title: "[Coming Soon]",
+        image: "",
+        link: "",
+        sub_text: "TO FIND WHEN YOUR FAVORITE ARTISTS ARE PLAYING NEAR YOU"
     },
     {
         title: "Off Grid Ed",
         image: "",
-        alt_text: "",
-        sub_text: "ANDROID APP MAKING OFFLINE DIGITAL EDUCATION POSSIBLE"
+        link: "https://github.com/JacobStacy/CostaRicaEducationProjectV2",
+        sub_text: "ANDROID APP FOR OFFLINE DIGITAL EDUCATION"
     },
     {
         title: "Portfolio",
         image: "",
-        alt_text: "",
+        link: "https://github.com/JacobStacy/PortfolioV1",
         sub_text: "THE VERY SITE YOU ARE ON NOW"
     }
 ];
@@ -60,7 +60,7 @@ export function Projects () {
                         <Project 
                         title={project.title}
                         image={project.image}
-                        alt_text={project.alt_text}
+                        link={project.link}
                         sub_text={project.sub_text}/>
                     )
                 })}
@@ -73,22 +73,21 @@ export function Projects () {
 export function Project ({
     title,
     image,
-    alt_text,
+    link,
     sub_text
 
 } : {
     title : string;
     image : string;
-    alt_text : string;
+    link : string;
     sub_text : string;
 }
 ) {
     return(
-        <div className={styles.project}>
-            {/* <Image className={styles.image} src={image}  alt={alt_text} width={690} height={374}/> */}
+        <a href={`${link}`} className={styles.project}>
             <div className={styles.sub_text}><div>{sub_text}</div></div>
             <div className={styles.title}>{title}</div>
-        </div>
+        </a>
     )
 }
 
