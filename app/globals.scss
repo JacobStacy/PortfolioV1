@@ -255,3 +255,14 @@ header{
   }
 
 }
+
+@media only screen and (max-height: 600px) {
+  header {
+    nav {
+      justify-content: center;
+      .title {
+        display: none;
+      }
+    }
+  }
+}
