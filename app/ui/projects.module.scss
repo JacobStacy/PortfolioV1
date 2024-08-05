@@ -83,7 +83,7 @@ $main-background-color: #ffffff;
       top: 0;
       right: 0;
       z-index: -10;
-      
+
       background: 
         repeating-radial-gradient(#ff0606c4 0 0.0001%, #00fffbc4 0 0.0002%) 50% 0/2500px 2500px,
         repeating-conic-gradient(#ff0000c4 0 0.0001%, #00fffbc4 0 0.0002%) 60% 60%/2500px 2500px;
@@ -292,3 +292,5 @@ $main-background-color: #ffffff;
 @keyframes tv_static_ani{
     100% {background-position: 50% 0, 60% 50%}
 }
+
+
