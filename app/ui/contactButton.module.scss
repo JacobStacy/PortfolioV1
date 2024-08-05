@@ -72,11 +72,6 @@ $main-background-color: #ffffff;
             width: 100%;
             text-align: center;
         }
-
-        &:hover { 
-            // color: #00000000;
-        
-        }
         
     
         
@@ -125,9 +120,16 @@ $main-background-color: #ffffff;
     }
 }
 
-@media (pointer:coarse) {
+@media (pointer: coarse) {
+    .link {
+        &:hover {
+            .contact_button {
+                animation: none;
+            }
+        }
+    }
 
-    .contact_button {    
+    .contact_button {
         span::after {
             display: none;
         }

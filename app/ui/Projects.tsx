@@ -94,15 +94,29 @@ export function Project ({
 }
 ) {
 
+    // Apply class when project not yet availiable
     let availiable_class = ""
     if (!availiable) {
-        availiable_class = styles.unavaialbe;
+        availiable_class = styles.unavailable;
+
+        
     }
+
 
     return(
         <a href={`${link}`} className={`${styles.project} ${availiable_class}`}>
-            <div className={styles.sub_text}><div>{sub_text}</div></div>
-            <div className={styles.title}>{title}</div>
+            <div  aria-hidden="true" className={styles.tv_static}></div>
+
+            <div className={styles.sub_text}>{sub_text}</div>
+            <div className={styles.title}>
+                {!availiable && (
+                    <span aria-hidden="true" className={styles.glitch_mask}>{title}</span>
+                )}
+                {title}
+                {!availiable && (
+                    <span  aria-hidden="true" className={styles.glitch_mask}>{title}</span>
+                )}
+            </div>            
         </a>
     )
 }
