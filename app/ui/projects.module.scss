@@ -29,7 +29,23 @@ $main-background-color: #ffffff;
 
         color: $main-text-color;
         text-decoration: none;
+
         
+        // &.unavaialbe:hover {
+        //     background: 
+        //         repeating-radial-gradient(#ff0606c4 0 0.0001%,#00fffbc4 0 0.0002%) 50% 0/2500px 2500px,
+        //         repeating-conic-gradient(#ff0000c4 0 0.0001%,#00fffbc4 0 0.0002%) 60% 60%/2500px 2500px;
+        //     background-blend-mode: difference;
+        //     animation: b 2s infinite alternate;
+
+        //     color: #fff;
+            
+        //     @keyframes b{
+        //     100% {background-position: 50% 0, 60% 50%}
+        //     }
+        // }
+        
+
         &:visited{
             color: $main-text-color;
             text-decoration: none;
@@ -60,6 +76,8 @@ $main-background-color: #ffffff;
         //     flex-direction: row-reverse;
         // }
     }
+
+    
 }
 
 @media only screen and (max-width: 900px) {

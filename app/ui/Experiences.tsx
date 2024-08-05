@@ -12,7 +12,7 @@ const experiences = [
         points: [
             "Redesigning user interfaces, implementing new functionalities, and deploying features seamlessly across various websites using Laravel, Next.JS, and Cascade CMS with vanilla JavaScript.",
             "Weekly meetings with clients and designers to ensure alignment with both aesthetic goals and technical requirements.",
-            "Directed a comprehensive overhaul of the MSU Cosmetic Surgery Site, collaborating effectively with clients while maintaining creative direction. The improved site boasts a user-centric interface and modern aesthetics, positioning MSU Cosmetic Surgery for increased patient acquisition.",
+            "Comprehensively overhauled several MSU Healthcare related sites, collaborating effectively with clients while maintaining creative direction. The improved sites boast user-centric interfaces and modern aesthetics, positioning MSU Healthcare for increased patient acquisition.",
             "Overhauled MSU Healthcare's main navigation and key UI elements to enhance user experience and streamline data entry processes, resulting in a more user-friendly platform and reduced workload for the client."
         ]
     },
