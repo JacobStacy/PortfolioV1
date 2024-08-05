@@ -6,7 +6,7 @@ import { frankRuhlLibre } from '@/app/ui/fonts';
 const experiences = [
     {
         title: "MSU RS&GIS",
-        position: "Web Developer",
+        position: "Full Stack Web Developer",
         start: "August 2022",
         end: "Present",
         points: [
