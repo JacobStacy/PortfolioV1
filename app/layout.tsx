@@ -3,6 +3,7 @@ import "./globals.scss";
 import Link from "next/link";
 import { openSans, frankRuhlLibre } from '@/app/ui/fonts';
 import ProgressBar from "./ui/ProgressBar";
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
   title: "Jacob R. Stacy",
@@ -18,11 +19,10 @@ export default function RootLayout({
 
   return (
 
-    
 
     <html lang="en">
 
-      
+      <Analytics/>
         
       
       
