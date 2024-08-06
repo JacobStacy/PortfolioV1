@@ -19,9 +19,9 @@ export default function Home() {
           I AM A SOFTWARE ENGINEER WHO SPECIALIZES IN CREATING <br />
           <span className={`${styles.highlight} ${frankRuhlLibre.className}`}>BEAUTIFUL</span> <br/>
           <span className={`${styles.highlight} ${frankRuhlLibre.className}`}>
-            <span className={`${styles.glitch_mask}`}>FUNCTIONAL</span>
+            <span aria-hidden="true" className={`${styles.glitch_mask}`}>FUNCTIONAL</span>
               FUNCTIONAL
-            <span className={`${styles.glitch_mask}`}>FUNCTIONAL</span>
+            <span aria-hidden="true" className={`${styles.glitch_mask}`}>FUNCTIONAL</span>
           </span>
            AND <br /> 
           <span className={`${styles.highlight} ${frankRuhlLibre.className}`}>UNIQUE</span> 
