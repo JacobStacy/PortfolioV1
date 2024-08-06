@@ -17,9 +17,14 @@ export default function Home() {
         <div className={styles.title}>Hi! I'm <span className={`${styles.name} ${frankRuhlLibre.className}`}>Jacob</span></div>
         <div className={styles.description}>
           I AM A SOFTWARE ENGINEER WHO SPECIALIZES IN CREATING <br />
-          <span className={`${styles.highlight} ${frankRuhlLibre.className}`}>BEAUTIFUL FUNCTIONAL</span> <br />
-          AND <br />
-          <span className={`${styles.highlight} ${frankRuhlLibre.className}`}>UNIQUE</span> <br />
+          <span className={`${styles.highlight} ${frankRuhlLibre.className}`}>BEAUTIFUL</span> <br/>
+          <span className={`${styles.highlight} ${frankRuhlLibre.className}`}>
+            <span className={`${styles.glitch_mask}`}>FUNCTIONAL</span>
+              FUNCTIONAL
+            <span className={`${styles.glitch_mask}`}>FUNCTIONAL</span>
+          </span>
+           AND <br /> 
+          <span className={`${styles.highlight} ${frankRuhlLibre.className}`}>UNIQUE</span> 
           WEB EXPERIENCES
         </div>
       </div>

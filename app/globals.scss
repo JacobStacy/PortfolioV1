@@ -132,6 +132,10 @@ header{
     }
 
     .menu {
+      &.mobile {
+        display: none;
+      }
+
       ul {
         display: block;
         list-style: none;
@@ -230,7 +234,18 @@ header{
       .title {
         display: none;
       }
+
+      .menu {
+        display: none;
+
+      }
+
+      .menu.mobile {
+        display: block;
+      }
     }
+
+    
   }
 }
 

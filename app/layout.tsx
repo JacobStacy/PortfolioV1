@@ -50,6 +50,19 @@ export default function RootLayout({
                   </li>
                 </ul>
               </div>
+              <div className="menu mobile">
+                <ul>
+                  <li>
+                    <Link href="/#experience">experience </Link>
+                  </li>
+                  <li>
+                    <Link href="/#projects">projects </Link>
+                  </li>
+                  <li>
+                    <Link href="/#contact">contact</Link>
+                  </li>
+                </ul>
+              </div>
               <ProgressBar/>
             </nav>
           </header>
