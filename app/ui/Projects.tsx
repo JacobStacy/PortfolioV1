@@ -47,6 +47,13 @@ const projects = [
         sub_text: "ANDROID APP FOR OFFLINE DIGITAL EDUCATION"
     },
     {
+        title: "[Coming Soon]",
+        image: "",
+        link: "",
+        availiable: false,
+        sub_text: "Who's the Top Dog?"
+    },
+    {
         title: "Portfolio",
         image: "",
         link: "https://github.com/JacobStacy/PortfolioV1",
