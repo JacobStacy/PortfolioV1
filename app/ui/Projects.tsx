@@ -51,7 +51,7 @@ const projects = [
         image: "",
         link: "",
         availiable: false,
-        sub_text: "Who's the Top Dog?"
+        sub_text: "WHO'S THE TOP DOG?"
     },
     {
         title: "Portfolio",
