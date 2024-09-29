@@ -1,6 +1,5 @@
 import styles from "./projects.module.scss";
 import { frankRuhlLibre } from '@/app/ui/fonts';
-import Image from "next/image";
 
 
 const projects = [
@@ -9,7 +8,7 @@ const projects = [
         image: "/Capstone-1.png",
         link: "http://www.capstone.cse.msu.edu/2024-01/projects/anthropocene-institute/",
         availiable: true,
-        sub_text: "WEB APP AND AI MODEL SAVING THE WORLD"
+        sub_text: "WEB APP AND AI MODEL SAVING OUR OCEANS"
     },
     {
         title: "JakeQL",
@@ -17,6 +16,13 @@ const projects = [
         link: "https://github.com/JacobStacy/JakeQL",
         availiable: true,
         sub_text: "DBSM WRITTEN IN PYTHON MIMICING SQLITE"
+    },
+    {
+        title: "Top Dog",
+        image: "",
+        link: "top-dog-nine.vercel.app",
+        availiable: true,
+        sub_text: "WHO WILL FETCH THE MOST LIKES?"
     },
     {
         title: "GeoStudy",
@@ -47,18 +53,11 @@ const projects = [
         sub_text: "ANDROID APP FOR OFFLINE DIGITAL EDUCATION"
     },
     {
-        title: "[Coming Soon]",
-        image: "",
-        link: "",
-        availiable: false,
-        sub_text: "WHO'S THE TOP DOG?"
-    },
-    {
         title: "Portfolio",
         image: "",
         link: "https://github.com/JacobStacy/PortfolioV1",
         availiable: true,
-        sub_text: "THE VERY SITE YOU ARE ON NOW"
+        sub_text: "THE SITE YOU ARE ON NOW"
     }
 ];
 
