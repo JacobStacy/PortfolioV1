@@ -11,9 +11,10 @@ const experiences = [
         end: "Present",
         points: [
             "Redesigning user interfaces, implementing new functionalities, and deploying features seamlessly across various websites using Laravel, Next.JS, and Cascade CMS with vanilla JavaScript.",
+            "Developing and integrating RESTful APIs to facilitate data exchange and enhance functionality across applications, ensuring robust and efficient backend support.",
             "Weekly meetings with clients and designers to ensure alignment with both aesthetic goals and technical requirements.",
-            "Comprehensively overhauled several MSU Healthcare related sites, collaborating effectively with clients while maintaining creative direction. The improved sites boast user-centric interfaces and modern aesthetics, positioning MSU Healthcare for increased patient acquisition.",
-            "Overhauled MSU Healthcare's main navigation and key UI elements to enhance user experience and streamline data entry processes, resulting in a more user-friendly platform and reduced workload for the client."
+            "Comprehensively overhauled several client sites, collaborating effectively with clients while maintaining creative direction. The improved sites boast user-centric interfaces and modern aesthetics, positioning our client for increased patient acquisition.",
+            "Overhauled key UI elements to enhance user experience and streamline data entry processes, resulting in a more user-friendly platform and reduced workload for the client."
         ]
     },
     {
