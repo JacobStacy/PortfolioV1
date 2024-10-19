@@ -18,7 +18,7 @@ const projects = [
         sub_text: "DBSM WRITTEN IN PYTHON MIMICING SQLITE"
     },
     {
-        title: "Top Dog",
+        title: "TopDog",
         image: "",
         link: "https://top-dog-nine.vercel.app",
         availiable: true,
