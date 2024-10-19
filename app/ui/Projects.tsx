@@ -20,9 +20,16 @@ const projects = [
     {
         title: "Top Dog",
         image: "",
-        link: "top-dog-nine.vercel.app",
+        link: "https://top-dog-nine.vercel.app",
         availiable: true,
         sub_text: "WHO WILL FETCH THE MOST LIKES?"
+    },
+    {
+        title: "Local Creamery",
+        image: "",
+        link: "https://local-creamery.vercel.app/",
+        availiable: true,
+        sub_text: "EXAMPLE SITE FOR A ICECREAM SHOP [WIP]"
     },
     {
         title: "GeoStudy",
