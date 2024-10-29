@@ -11,18 +11,18 @@ const projects = [
         sub_text: "WEB APP AND AI MODEL SAVING OUR OCEANS"
     },
     {
-        title: "JakeQL",
-        image: "",
-        link: "https://github.com/JacobStacy/JakeQL",
-        availiable: true,
-        sub_text: "DBSM WRITTEN IN PYTHON MIMICING SQLITE"
-    },
-    {
         title: "TopDog",
         image: "",
         link: "https://top-dog-nine.vercel.app",
         availiable: true,
         sub_text: "WHO WILL FETCH THE MOST LIKES?"
+    },
+    {
+        title: "JakeQL",
+        image: "",
+        link: "https://github.com/JacobStacy/JakeQL",
+        availiable: true,
+        sub_text: "DBSM WRITTEN IN PYTHON MIMICING SQLITE"
     },
     {
         title: "Local Creamery",
